@@ -23,7 +23,7 @@
 - Also we set predict_with_generate=True, to generate text during evaluation which increase the accuracy of the model but it also make it more slower.<br/>
 - We set save_total_limit = 2 which is the best and last one ,save_strategy="no" to save memory from saving each checkpoint.<br/>
 - Create a training instance using model,data collator ,training and testing data and computing metrics.<br/>
--train the trainer and evaluate it(It may take long time depends on the amount of data and number of epochs).<br/>
+- Train the trainer and evaluate it(It may take long time depends on the amount of data and number of epochs).<br/>
 - If we see the evaluation of the model it scores a good rouge score.<br/>
 - Save the model and tokenizer to be reused again later.<br/>
 - Load the model and use the pipeline to use while inference.<br/>
